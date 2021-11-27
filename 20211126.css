@@ -1,0 +1,85 @@
+/*  font-family: 'Lora', serif;*/
+*{
+    box-sizing: content-box;
+}
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, #301e0a, #e6ad6b);
+    height: 100vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+   
+}
+form{
+    width: 380px;
+    height: 350px;
+    margin:0px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.657);
+    top: calc(50% - 145px);
+    padding: 60px;
+    position: relative;
+    background: url(https://wallpaperaccess.com/full/5704531.jpg) no-repeat;
+    background-size: cover;
+    border-top: 4px solid yellow;
+}
+h4, {
+    margin-bottom: 45px;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border:0;
+    offset: 0;
+    margin-bottom: 10px;
+    /* outline:0; */
+    font-size: 35px;
+    background-color: rgb(233, 162, 49);
+}
+/* input:focus{
+    background-color: #fafafa;
+} */
+li{
+    position: absolute;
+    right: 40px;
+    bottom: 105px;
+    list-style: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #7f8c8d;
+    font-weight: 500;
+}
+.button{
+    position: relative;
+    float: left;
+    width: 145px;
+    margin-top: 35px;
+    background-color: black;
+    color: grey;
+}
+.item{
+    display: flex;
+    justify-content:space-around;
+    color: lavender;  
+    width: 400px;
+}
+.button:hover{
+    background-color: yellow;
+}
+/* input::before{
+    content:"11111111";
+    position: relative;
+    color: wheat;
+} */
+.userName, .password {
+    font-size: 22px;
+}.foter{
+    position: absolute;
+    bottom: 60px;
+  right: 47%;
+}
+span{
+    color: white;
+}
